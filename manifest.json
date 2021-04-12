@@ -1,0 +1,17 @@
+{
+  "name": "Imgur Always Gifv",
+  "description": "Makes any .gif imgur link into .gifv cause it's better.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["tabs", "*://*.imgur.com/*"],
+  "content_scripts" :[
+	{
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": ["background.js"],
+		"run_at": "document_start"
+        }
+	]
+}
