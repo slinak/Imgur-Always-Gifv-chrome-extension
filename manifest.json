@@ -1,6 +1,7 @@
 {
   "name": "Imgur Always Gifv",
-  "description": "Makes any .gif imgur link into .gifv cause it's better.",
+  "description": "Makes any .gif imgur link into .gifv cause it's better.  Open source.",
+  "homepage_url": "https://github.com/slinak/Imgur-Always-Gifv-chrome-extension",
   "version": "1.0",
   "manifest_version": 2,
   "permissions": ["tabs", "*://*.imgur.com/*"],
